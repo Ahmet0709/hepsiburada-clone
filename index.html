@@ -3,44 +3,114 @@
     <head>
         <meta charset="utf-8">
         <title>Türkiye'nin En Büyük Online Alışveriş Sitesi Hepsiburada.com</title>
-        <link rel="stylesheet" href="./css/style.css">
+       
         <link rel="shortcut icon" href="favicon-new.ico">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <header>
-         <div class=" container">
-                 <div id="logo">
-            <img src="hepsi.png">
-            <br>
-            <p class="pre"><span style="color:#ff6600">Premium'u</span>  Keşfet</p>
+        <div class="header">
+            <div class="header_links">
+                <ul>
+                    <li><a href="#">Siparişlerim</a></li>
+                    <li><a href="#">Süper Fiyat, Süper Teklif</a></li>
+                    <li><a href="#">Yurt Dışından</a></li>
+                    <div class="toplinks"></div>
+                    <li><a href="#">Kampanyalar</a></li>
+                    <li><a href="#" style="color: #ff6600">Girişimci Kadınlar</a></li>
+                    <li><a href="#">Müşteri Hizmetleri</a></li>
+                    <li><a href="#" style="color: #ff6600;">Hepsiburada Premium</a></li>
+                    <li><a href="#">Hepsiburada'da Satıcı Ol</a></li>
+                </ul>
+            </div>
+            <div class="header_inclusive">
+                <div class="header_image">
+                    <div class="inclusive_logo">
+                        <div style="box-sizing: border-box;">
+                        <a href="index.html" target title="Hepsiburada">
+                            <img width="191" height="34" src="Hepsiburada_logo_official.svg" alt="Hepsiburada">
+                        </a>
+                    </div>
+                    <div class="header_premiumlogo">
+                        <b><a href="https://www.hepsiburada.com/premium?utm_source=web_header" class="premiumlogo">Premium'u</a> keşfet</b>
+                    </div>
+                    </div>
                 </div>
-                <nav class="head">
-                    <ul>
-                        <li><a href="#">Siparişlerim</a></li>
-                        <li><a href="#">Süper Fiyat, Süper Teklif</a></li>
-                        <li><a href="#">Yurt Dışından</a></li>
-                        <li><a href="#">Kampanyalar</a></li>
-                        <li><a href="#" style="color: #ff6600">Girişimci Kadınlar</a></li>
-                        <li><a href="#">Müşteri Hizmetleri</a></li>
-                        <li><a href="#" style="color: #ff6600;">Hepsiburada Premium</a></li>
-                        <li><a href="#">Hepsiburada'da Satıcı Ol</a></li>
-                    </ul>
-                    <select>
-                        <option value="opt"> <i class="fa-regular fa-user"></i> Giriş Yap <br> veya üye ol </option>
-                        <option value="opt2">Giriş Yap </option>
-                        <option value="opt3">Üye ol </option>
-                      </select>
-                      
-                    <button class="button">Sepetim</button>
-                </nav>
-            </div>  
-            <form action="#" method="get">
-                <input type="text" placeholder="Ara...">
-                <button type="submit">Ara</button>
-              </form>
-
-              <div class="flex-container">
+                <div class="header_searchzone">
+                    <div>
+                        <div class="header-search">
+                            <div style="box-sizing: border-box;">
+                            <div class="searchconteiner" style="margin-bottom: 0;">
+                                <div style="box-sizing: border-box;">
+                                    <div id="searchbox" style="pointer-events: auto;" class="searchbox" voltran-hydrated="true">
+                                        <div style="box-sizing: border-box;">
+                                            <div class="searchbox-1">
+                                                <div class="searchboxtext">
+                                                    <div class="searchicon">
+                                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                                    </div>
+                                                    
+                                                    <div role="combobox" aria-owns="react-autowhatever-1" aria-expanded="false" class="theme">
+                                                        <input type="text" autocomplete="list" class="theme1" placeholder="Ürün, kategori veya marka ara" value>
+                                                        <div id="react-autowhatever-1" role="listbox" class="themebox1"></div>
+                                                    </div>
+                                                    <div class="searchbutton">Ara</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="header_Myaccount">
+                <div class="header_location">
+                    <div class>
+                        <div class="location" style="margin-bottom:0">
+                            <div id="shippinglocation" style="pointer-events: auto;" class="shipping_location" voltran-hydrated="true"></div>
+                            <div>
+                                <div class="shipping_location1">
+                                    <div class="shipping_location2">
+                                        <div class="shipping_location3">
+                                            <div id="locationdown" class="shippingdown">
+                                                <div class="shippingcontent">
+                                                    <div class="shppingcontentimg"></div>
+                                                    <div class="shippingcontenttext">
+                                                        <div class="shippingcontenttext1">
+                                                            Konum
+                                                        </div>
+                                                        <div class="shippingcontenttext2">
+                                                            <div class="locationselect">
+                                                                Konum Seç 
+                                                            </div>
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="header_login">
+                    <span class="logintext">Giriş Yap</span>
+                    <span class="logintext2">veya üye ol</span>
+                </div>
+                <div class="header_basket">
+                    <span class="shopping_cart" style="box-sizing: border-box;">Sepetim</span>
+                </div>
+                
+                  
+            </div>
+            </div>
+            <div class="flex-container">
                 <div class="renk1">1</div>
                 <div class="renk2">2</div>
                 <div class="renk3">3</div>
@@ -48,7 +118,9 @@
                 <div class="renk5">5</div>
                 <div class="renk6">6</div>
               </div>
-        </header>
+
+        </div>
+
 
         <div class="contli">
             <ul>
@@ -63,7 +135,7 @@
               <li><a href="#">Kitap, Müzik, <br> Film, Hobi</a></li>
             </ul>
             </div>
-            <div class="panel">
+           <div class="panel">
                <div class="toppanel">
                 <div class="topbtn1">
                     <span class="btn1">Bugüne Özel</span>
@@ -81,7 +153,6 @@
                     <span class="btn5">Ayrıcalıklar</span>
                 </div>
                   </div>
-                  
             </div>
             <div class="panel2">
                 <div class="midpanel">
@@ -98,7 +169,6 @@
                         <div class="image">
                             <a class="link" href="https://www.hepsiburada.com/huawei-nova-10-pro-256-gb-8-gb-ram-huawei-turkiye-garantili-p-HBCV00002Y02D8">
                                 <div class="showcase"> 
-                                    <div class="showcase1"></div>
                                     <div class="showcase2">
                                         <div class="showcaseimg">
                                             <picture>
@@ -112,128 +182,79 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="bottompanel">
-                <div>
-                    <div class="panelin">
-                        <ul class="list">
-                            <li>
-                                <a>
-                                    <div class="underimg">
-                                        <picture> 
-                                            <img width="71" height="40px" class="img1" src="hepsi_webp.jpeg"> 
-                                        </picture>  
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a>
-                                    <div class="underimg">
-                                        <picture> 
-                                            <img width="71" height="40px" class="img1" src="samsung_webp.jpeg">
-                                        </picture>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a>
-                                    <div class="underimg">
-                                        <picture> 
-                                            <img width="71" height="40px" class="img1" src="tv_webp.jpeg">
-                                        </picture>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a>
-                                    <div class="underimg">
-                                        <picture> 
-                                            <img width="71" height="40px" class="img1" src="asus_webp.jpeg">
-                                        </picture>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a>
-                                    <div class="underimg">
-                                        <picture> 
-                                            <img width="71" height="40px" class="img1" src="ds_webp (1).jpeg">  
-                                        </picture>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
+                <div class="bottompanel">
+                    <div>
+                        <div class="panelin">
+                            <ul class="list">
+                                <li>
+                                    <a class="listimg">
+                                            <picture> 
+                                                <img width="71" height="40px" class="img1" src="hepsi_webp.jpeg">
+                                            </picture>  
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="listimg">
+                                        <div class="underimg">
+                                            <picture> 
+                                                <img width="71" height="40px" class="img1" src="samsung_webp.jpeg">
+                                            </picture>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="listimg">
+                                        <div class="underimg">
+                                            <picture> 
+                                                <img width="71" height="40px" class="img1" src="tv_webp.jpeg">
+                                            </picture>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="listimg">
+                                        <div class="underimg">
+                                            <picture> 
+                                                <img width="71" height="40px" class="img1" src="asus_webp.jpeg">
+                                            </picture>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="listimg">
+                                        <div class="underimg">
+                                            <picture> 
+                                                <img width="71" height="40px" class="img1" src="ds_webp (1).jpeg">  
+                                            </picture>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="section" style="margin-bottom: 72px;">
-                <div>
-                    <div id="discount" style="pointer-events: auto;" class="cont" voltran-hydrated="true">
-                        <div>
-                                <div class="theday">
-                                    <div class="conttext">
-                                        <h2 class="conttext1">Süper Fiyat, Süper Teklif</h2>
-                                        <a href="https://www.hepsiburada.com/gunun-firsati-teklifi" class="conttext2" rel="nofollow" style="text-decoration: none;">
+            
+            <div class="container3" style="margin-bottom: 72px;">
+                <div style="box-sizing: border-box;">
+                    <div id="oftheday" style="pointer-events: auto;" class="oftheday" voltran-hydrated="true">
+                        <div style="box-sizing: border-box;">
+                                <div class="oftheday_2">
+                                    <div class="container3_text">
+                                        <h2 class="container3_text1">Süper Fiyat, Süper Teklif</h2>
+                                        <a class="container3_text2" href="https://www.hepsiburada.com/gunun-firsati-teklifi"  rel="nofollow" style="text-decoration: none;">
                                             Tümü
-                                            <div class="texticon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="9" fill="#ff6000"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg></div>
+                                            <div class="container3_icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="9" fill="#ff6000"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                                            </div>
                                         </a>
                                     </div>
-                                    <div class="generalopport">
-                                        <div class="opport">
-                                            <div class="slicktrack">
-                                                <div class="slick" style="width: 890px; opacity: 1; transform: translate3d(0px 0px 0px);" >
-                                                    <div class="slicktitle" tabindex="-1" aria-hidden="false" style="outline:none; width: 244px;">
-                                                    <div style="box-sizing: border-box;">
 
-                                                        <div class="slickgenimg" tabindex="-1" style="width: 100%; display: inline-block;">
-                                                        <a href="https://www.hepsiburada.com/gunun-firsati-teklifi">
-                                                            <div class="slickdiv">
-                                                                <div class="holdergen" style="padding-top: 165.625%;">
-                                                                <div class="holder">
-                                                                    <div class="slickimg">
-                                                                        <picture style="box-sizing: border-box;"><img width="224" height="371" src="teklif.jpeg" alt="Süper Fiyat, Süper Teklif"></picture>
-                                                                    </div>
-                                                                </div>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                        </div>
-
-                                                        <div data-index="1" class="slick1" tabindex="-1" aria-hidden="false" style="outline:none; width:244px;">
-                                                            <div>
-                                                                <div class="slickimg1"> 
-                                                                    <a style="text-decoration: none;" title="Joyster Siyah- Beyaz Erkek Spor Ayakkabı" class="ayakkabı" href="https://www.hepsiburada.com/joystar-siyah-beyaz-erkek-spor-ayakkabi-p-HBCV00003MLZF4?magaza=Hepsiburada">
-                                                                        <span class="baslik"> Joystar Siyah - Beyaz Erkek Spor Ayakkabı</span>
-                                                                        <div class="ayakkabıfoto">
-                                                                            <div class="bicim" style="padding-top: 100%;">
-                                                                            <div class="bicim1">
-                                                                                <div class="bicim2"><picture style="box-sizing: border-box;"><img src="ayakkabı.jpg" alt="Joystar Siyah - Beyaz Erkek Spor Ayakkabı" class="ayakkabıimg"></picture></div>
-                                                                            </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="genprice">
-                                                                            <div class="price">
-                                                                                <div class="price1" style="text-decoration: none;">
-                                                                                    260
-                                                                                    <span class="birim">TL</span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                         </div>
                     </div>
                 </div>
             </div>
+           
     </body> 
 </html>
