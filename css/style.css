@@ -1,5 +1,6 @@
 *{
   text-decoration: none !important;
+  box-sizing: border-box !important;
 }
 #logo {
     top: 0;
@@ -902,4 +903,257 @@ header li{
 }
 .container3 .container3_icon{
   margin-left: 4px;
+}
+
+.containerslick{
+  margin: 0 -10px;
+}
+.slick-slider::before{
+     left: 0;
+    background-image: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(#fff));
+    background-image: -o-linear-gradient(right,rgba(255,255,255,0),#fff);
+    background-image: linear-gradient(to left,rgba(255,255,255,0),#fff);
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 65px;
+    z-index: 1;
+    -o-transition: all .15s ease-in-out;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+.slick-slider::after{
+  right: 0;
+  background-image: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(#fff));
+    background-image: -o-linear-gradient(right,rgba(255,255,255,0),#fff);
+    background-image: linear-gradient(to left,rgba(255,255,255,0),#fff);
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 65px;
+    z-index: 1;
+    -o-transition: all .15s ease-in-out;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+.slick-slider{
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color:transparent;
+}
+
+.rightbtn::after{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.rightbtn{
+  opacity: 1;
+  visibility: visible;
+}
+.panelin .headleftbtn{
+  opacity: .72;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 56px;
+    height: 36px;
+    border-radius: 18px;
+    border: solid 2px #fff;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    position: absolute;
+    right: 100%;
+    -webkit-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    overflow: hidden;
+    cursor: pointer;
+    color: #484848!important;
+    border-color: #484848!important;
+}
+.headleftbtn .leftbtn{
+  position: relative;
+  display: block;
+  background-color: transparent;
+  -webkit-transition-duration:.2s;
+  transition-duration: .2s;
+  -webkit-transition-property:opacity,background-color,color;
+  transition-property: opacity,background-color,color;
+  -webkit-transition-timing-function:ease-out;
+  transition-timing-function:ease-out;
+}
+.leftbtn .button{
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.button .btnicon{
+  position: relative;
+  display: block;
+}
+.btnicon .icon{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2717%27 height=%2716%27 viewBox=%270 0 17 16%27 stroke=%27%23484848%27 fill=%27none%27%3E %3Cg fill=%27none%27 fill-rule=%27evenodd%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%271.5%27%3E %3Cpath d=%27M15.531 8H1.47M8.031 14.682L1.47 8 8.03 1.318%27/%3E %3C/g%3E %3C/svg%3E");
+  width: 15px;
+  height: 14px;
+}
+.slick-slider .slick{
+  -webkit-transform: translate3d(0,0,0);
+  transform: translateZ(0);
+}
+
+.slick_list::before{
+  display: table;
+  content: "";
+}
+
+.slick-slider .slickslide{
+  display: block;
+}
+
+.slick_1 a{
+  display: block;
+  margin: 0 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-transition:all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.placeholder{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.placeholder .placeholder_1{
+  position: relative;
+  display: block;
+  content: "";
+}
+.placeholder .placeholder_2{
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+}
+
+.placeholder .slick1_img{
+  height: 100%;
+}
+.slick1_image .teklifimg{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.slick_2{
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 8px;
+  display: flex;
+  margin: 0px 10px;
+  text-align: center;
+}
+
+.slick_2 .outdoorayakkabı{
+  cursor: pointer;
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  outline: none;
+  overflow: hidden;
+  padding: 24px 12px 33px;
+}
+.slick_2text{
+  -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: rgb(72, 72, 72);
+    display: -webkit-box;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    height: 36px;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 13px;
+    margin-top: 4px;
+    overflow: hidden;
+    padding: 0px 4px;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+.slick_2img{
+  position:  relative;
+  width: 100%;
+  overflow: hidden;
+}
+.slick_2img .slick_2imgformat{
+  position: relative;
+  display: block;
+  content: "";
+}
+.slick_2imgformat .imgformat{
+  position: absolute;
+  inset: 0px;
+  z-index: 0;
+  width: 100%;
+}
+.imgformat:only-child{
+  height: 100%;
+}
+.imgformat .slick_2img{
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.slick_2img .outdoor{
+  border-radius: 6px;
+  width: 100%;
+}
+.slickprice{
+  height: 48px;
+  margin-top: 23px;
+  text-align: center;
+}
+.slickprice .price2{
+  -webkit-box-align: center;
+  align-items: center;
+  height: 40px;
+  place-content: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-box-pack: center;
+    min-height: 56px;
+}
+.slickprice .price{
+  font-weight: bold;
+  color: rgb(255, 96, 0);
+  font-size: 20px;
+  letter-spacing: -0.27px;
+  line-height: 1.2;
 }
